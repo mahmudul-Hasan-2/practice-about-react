@@ -8,6 +8,8 @@ import { Loads } from './Loads';
 import { SmartCounter } from './SmartCounter';
 import { Destructuring } from './Destructuring';
 import { Myselfs } from './Myselfs';
+import { Players } from './Players';
+import { Waiters } from './Waiters';
 
 // const loadPosts = async () => {
 //   const res = await fetch('https://jsonplaceholder.typicode.com/comments');
@@ -41,10 +43,12 @@ function App() {
       </Suspense> */}
       {/* <SmartCounter></SmartCounter> */}
       {/* <Destructuring arr={arrOfObjectOfAllRich}></Destructuring> */}
-      <Myselfs name="Mahmudul Hasan Nirob" age={40} isStudent={false}></Myselfs>
+      {/* <Myselfs name="Mahmudul Hasan Nirob" age={40} isStudent={false}></Myselfs>
       <Myselfs name="Mahmudul Hasan Sohag" age={14} isStudent={true}></Myselfs>
       <Myselfs name="Mahmudul Hasan Limon" age={60} isStudent={false}></Myselfs>
-      <Myselfs name="Mahmudul Hasan Haider" age={20} isStudent={true}></Myselfs>
+      <Myselfs name="Mahmudul Hasan Haider" age={20} isStudent={true}></Myselfs> */}
+      {/* <Players></Players> */}
+      <Waiters></Waiters>
     </>
   )
 }
